@@ -229,6 +229,9 @@ run = "move-node-to-workspace I"
 if.app-id = 'net.kovidgoyal.kitty'
 run = "move-node-to-workspace O"
 
+[[on-window-detected]]
+if.app-id = 'org.alacritty'
+run = "move-node-to-workspace O"
 
 [[on-window-detected]]
 if.app-id = 'epp.package.jee' 
