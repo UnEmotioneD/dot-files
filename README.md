@@ -5,6 +5,7 @@ This directory contains the dotfiles for my system
 ## YouTube References
 
 [Dreams of Autonomy](https://youtu.be/y6XCebnB9gs?list=TLPQMjkxMTIwMjRilRX82JmaPw)
+
 [typecraft](https://www.youtube.com/watch?v=NoFiYOqnC4o&t=122s&pp=ygURdHlwZWNyYWZ0IGdudXN0b3c%3D)
 
 ## Requirements
@@ -28,7 +29,7 @@ brew install stow
 First, check out the dotfiles repo in your $HOME directory using git
 
 ```zsh
-$ git clone git@github.com/UnEmotioneD/dotfiles.git
+$ git clone https://github.com/UnEmotioneD/dotfiles.git
 $ cd dotfiles
 ```
 
