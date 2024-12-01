@@ -112,10 +112,6 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
-
-# Neofetch
-# neofetch
 
 # quiet off
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
@@ -132,10 +128,6 @@ setopt hist_verify
 # completion using arrow keys (based on history)
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
-
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # ---- FZF -----
 
@@ -217,7 +209,7 @@ alias td="tmux attach -t developer"
 alias tw="tmux attach -t web"
 
 # ---- ChatGPT.nvim ----
-export OPENAI_API_KEY="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"
+export OPENAI_API_KEY=""
 
 # ---- QMK Alias ----
 alias qd="qmk compile -e CONVERT_TO=liatris -kb splitkb/aurora/lily58/rev1 -km daniel"
