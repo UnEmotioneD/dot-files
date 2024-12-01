@@ -3,9 +3,9 @@ return {
 	event = "VeryLazy",
 	config = function()
 		require("chatgpt").setup({
-			api_key_cmd = "echo $OPENAI_API_KEY",
+			api_key_cmd = "pass show api/tokens/openai",
 			openai_params = {
-				model = "gpt-4",
+				model = "gpt-4o",
 				frequency_penalty = 0,
 				presence_penalty = 0,
 				max_tokens = 4095,
