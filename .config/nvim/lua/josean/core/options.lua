@@ -47,4 +47,7 @@ opt.startofline = true
 
 opt.scrolloff = 5
 
+opt.spell = true
+-- opt.spelllang = "en"
+
 vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
