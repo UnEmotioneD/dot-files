@@ -36,6 +36,17 @@ Plug 'tpope/vim-commentary'
 set number
 set relativenumber
 
+set ignorecase
+set smartcase
+set hlsearch
+nmap <Leader>nh :nohl<CR>
+
+nmap <Leader>ww :w<CR>
+nmap <Leader>wq :wq<CR>
+nmap <Leader>qa :wqa<CR>
+
+set ideamulticursor
+
 
 Plug 'easymotion/vim-easymotion'
 let mapleader = " "
@@ -48,4 +59,4 @@ map mc <A-n>
 map mx <A-x>
 map mp <A-p>
 
-set which-key
+set clipboard^=ideaput
