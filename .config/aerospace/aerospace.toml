@@ -289,3 +289,6 @@ run = "move-node-to-workspace N"
 if.app-id = 'com.openai.chat'
 run = "move-node-to-workspace N"
 
+[[on-window-detected]]
+if.app-id = 'md.obsidian'
+run = "move-node-to-workspace N"
