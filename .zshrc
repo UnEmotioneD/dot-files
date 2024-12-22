@@ -213,3 +213,15 @@ alias qd="qmk compile -e CONVERT_TO=liatris -kb splitkb/aurora/lily58/rev1 -km d
 alias qw="qmk compile -e CONVERT_TO=liatris -kb lily58/rev1 -km wondo"
 alias qs="qmk compile -kb mode/m75h -km sonnet"
 
+# --- Yazi ---
+# Move to directory when exiting yazi
+
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+
