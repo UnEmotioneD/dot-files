@@ -208,11 +208,6 @@ alias tc="tmux attach -t config"
 alias td="tmux attach -t developer"
 alias tw="tmux attach -t web"
 
-# ---- QMK Alias ----
-alias qd="qmk compile -e CONVERT_TO=liatris -kb splitkb/aurora/lily58/rev1 -km daniel"
-alias qw="qmk compile -e CONVERT_TO=liatris -kb lily58/rev1 -km wondo"
-alias qs="qmk compile -kb mode/m75h -km sonnet"
-
 # ---- Yazi setup ----
 
 export EDITOR="nvim"

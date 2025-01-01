@@ -238,6 +238,10 @@ if.app-id = 'net.kovidgoyal.kitty'
 run = "move-node-to-workspace O"
 
 [[on-window-detected]]
+if.app-id = 'com.mitchellh.ghostty'
+run = "move-node-to-workspace O"
+
+[[on-window-detected]]
 if.app-id = 'epp.package.jee' 
 run = "move-node-to-workspace O"
 
