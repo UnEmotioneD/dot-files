@@ -58,5 +58,15 @@ let g:qs_secondary_color = '#ff00ff'
 " if you don't want to highlight in diff editors.
 let g:qs_disable_for_diffs = 1
 
+" Harpoon
+nmap <leader>ha :action AddToHarpoon<cr>
+nmap <leader>he :action ShowHarpoon<cr>
+nmap <leader>h1 :action GotoHarpoon1<cr>
+nmap <leader>h2 :action GotoHarpoon2<cr>
+nmap <leader>h3 :action GotoHarpoon3<cr>
+nmap <leader>h4 :action GotoHarpoon4<cr>
+nmap <leader>h5 :action GotoHarpoon5<cr>
+
 set clipboard=unnamedplus
-set clipboard^=ideaput
+set clipboard^=ideaputset
+set ideajoin
