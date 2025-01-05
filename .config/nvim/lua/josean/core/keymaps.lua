@@ -38,3 +38,6 @@ map.set("n", "<leader>wa", "<cmd>wa<CR>", { desc = "Write all file" })
 map.set("n", "<leader>qq", "<cmd>q<CR>", { desc = "Quite current buffer" })
 map.set("n", "<leader>qa", "<cmd>qa<CR>", { desc = "Quite all buffer" })
 map.set("n", "<leader>wq", "<cmd>wqa<CR>", { desc = "Write and quite all buffer" })
+
+-- neoclip
+map.set("n", "<leader>nc", "<cmd>Telescope neoclip<CR>", { desc = "Neoclip" })
