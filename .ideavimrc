@@ -70,3 +70,6 @@ nmap <leader>h5 :action GotoHarpoon5<cr>
 set clipboard=unnamedplus
 set clipboard^=ideaputset
 set ideajoin
+
+" Map 'p' in visual mode to perform 'p', 'g', 'v', 'y'
+vnoremap p :<C-U>normal! pgvy<CR>
