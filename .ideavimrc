@@ -71,5 +71,6 @@ set clipboard=unnamedplus
 set clipboard^=ideaputset
 set ideajoin
 
-" Map 'p' in visual mode to perform 'p', 'g', 'v', 'y'
-vnoremap p :<C-U>normal! pgvy<CR>
+" p in visual mode won't override reg
+xnoremap p pgvy
+
